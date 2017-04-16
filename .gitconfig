@@ -1,0 +1,11 @@
+[user]
+	name = MUstaf Eli
+	email = elimustaf@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = '/c/Program Files/Sublime Text 3/sublime_text.exe' -n -w
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
