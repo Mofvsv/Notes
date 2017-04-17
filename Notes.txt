@@ -1,6 +1,11 @@
+git config --global user.name ""
+git config --global user.email "
+git config --list
+git config --list
 git clone
 git init
 git diff
+git diff -u
 git show (diff between current and parent)
 git add .
 git log
@@ -10,6 +15,7 @@ git -b
 git commit -m
 git checkout master
 git log --graph --oneline master & branch
+git log --pretty=oneline -1
 
 These are common Git commands used in various situations:
 
